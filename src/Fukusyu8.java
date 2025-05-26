@@ -1,8 +1,8 @@
 public class Fukusyu8 {
     public static void main(String[] args) {
         int[] t = {3,5,7,2,8,6};
-        int max = 0;
-        int min = 100;
+        int max = t[0];
+        int min = t[0];
         for (int i = 0; i < t.length; i++) {
             if (max < t[i]) {
                 max = t[i];
